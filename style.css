@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after{
+	box-sizing: border-box;
+	/* border: 1px solid red; */
+}
+
+html{
+    font-size: 16px;
+}
+html,
+body {
+    margin: 0 auto;
+}
+body{
+    background-color: cadetblue;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.left{
+    flex:3;
+}
+.right{
+    flex:1;
+}
+
+.textcontaner{
+    background-color: white;
+    padding: 15px;
+}
+
+.card{
+    margin: 15px;
+    background-color: white;
+}
+
+img{
+    width: 100%;
+}
+
+#first_img{
+    width: 50%;
+}
+.firsttxt{
+    width: 50%;
+}
+
+.firstcard{
+    height: 300px;
+    flex-direction: row-reverse;
+}
+
+
+#innerleft-container{
+    flex: 2;
+}
+
+#innerright-container{
+    flex:1;
+}
+
+.cardfooter{
+    align-self: flex-end;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
