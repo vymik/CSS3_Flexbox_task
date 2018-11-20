@@ -55,7 +55,7 @@ img{
 }
 
 .firstcard{
-    height: 300px;
+    /* height: 300px; */
     flex-direction: row-reverse;
 }
 
